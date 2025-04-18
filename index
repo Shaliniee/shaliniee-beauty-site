@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Centre de bien-être premium à Montigny-lès-Cormeilles : soins HeadSpa japonais, massage Kobido et rituels capillaires naturels. Réservez votre moment d'exception.">
+  <meta name="keywords" content="HeadSpa Montigny, Kobido Montigny, soins capillaires Montigny-lès-Cormeilles, spa cuir chevelu, Tokio Inkarami 95">
+  <meta name="author" content="Shaliniee Beauty">
+  <title>Shaliniee Beauty - HeadSpa & Kobido Montigny</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #fefefe;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1588776814546-ec7ec8b53f0e') center/cover no-repeat;
+      padding: 120px 20px;
+      text-align: center;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.8em;
+      margin-bottom: 0.4em;
+    }
+    .hero a {
+      background: #fff;
+      color: #222;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #8e44ad;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 20px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Shaliniee Beauty</h1>
+    <p>HeadSpa & Kobido japonais à Montigny-lès-Cormeilles</p>
+    <a href="https://www.instagram.com/shaliniee_beauty/" target="_blank">✨ Suivez-nous sur Instagram ✨</a>
+  </div>
+
+  <section>
+    <h2>Un sanctuaire de bien-être</h2>
+    <p>Chez Shaliniee Beauty, chaque rituel est une invitation à la détente absolue. Dans un cadre zen et raffiné, nous vous proposons des prestations uniques inspirées du Japon : <strong>HeadSpa détox japonais</strong>, <strong>massage Kobido liftant</strong> et <strong>soins Tokio Inkarami</strong> pour une beauté naturelle et lumineuse.</p>
+
+    <h2>Des soins personnalisés à Montigny-lès-Cormeilles (95)</h2>
+    <p>Profitez d’une expertise rare en Val-d’Oise, dédiée aux femmes en quête d’équilibre, de régénération capillaire et de raffinement. Chaque soin est adapté à vos besoins, dans un esprit de luxe et de sérénité.</p>
+
+    <h2>✨ Réservez votre rituel d’exception</h2>
+    <p>Nos créneaux sont limités pour garantir un accompagnement exclusif. Cliquez ci-dessous pour réserver votre moment :</p>
+    <p><a href="https://www.instagram.com/shaliniee_beauty/" target="_blank">🔗 @shaliniee_beauty</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Shaliniee Beauty – Centre de bien-être à Montigny-lès-Cormeilles
+  </footer>
+</body>
+</html>
