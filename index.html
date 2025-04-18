@@ -3,120 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="HeadSpa, massage Kobido et rituels capillaires naturels : centre de bien-être premium à Montigny-lès-Cormeilles. Réservez votre moment d'exception.">
-  <meta name="keywords" content="HeadSpa Montigny-lès-Cormeilles, Kobido Montigny-lès-Cormeilles, soins capillaires Montigny-lès-Cormeilles, spa cuir chevelu, Tokio Inkarami">
-  <meta name="author" content="Shaliniee Beauty">
-  <title>Shaliniee Beauty | HeadSpa & Kobido</title>
+  <title>Shaliniee Beauty</title>
   <style>
     body {
       margin: 0;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom, #f8f1e9, #fffaf5);
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf5;
       color: #4a3e36;
     }
     header {
+      background-color: #fff6ee;
       text-align: center;
       padding: 2rem;
-      background-color: #fff6ee;
     }
     header h1 {
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
-    header a {
-      color: #af8f6f;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .content {
+    nav {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      padding: 2rem;
-      gap: 2rem;
+      background-color: #f1e4d1;
+      border-top: 1px solid #e0d4c0;
+      border-bottom: 1px solid #e0d4c0;
     }
-    .section {
-      flex: 1 1 400px;
-      background-color: #fff;
+    nav button {
+      background: none;
+      border: none;
+      padding: 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #7c5e43;
+    }
+    nav button:hover {
+      background-color: #eaddcd;
+    }
+    section {
+      display: none;
+      padding: 2rem;
+    }
+    section.active {
+      display: block;
+    }
+    .video-wrapper {
+      text-align: center;
+    }
+    .video-wrapper video {
+      max-width: 90%;
       border-radius: 1rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
-    .section img {
+    .section-image {
       width: 100%;
-      height: 250px;
-      object-fit: cover;
+      max-width: 600px;
+      height: auto;
+      border-radius: 1rem;
+      margin: 1rem 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-    .section h2 {
-      text-align: center;
-      padding: 1rem 0 0.5rem;
-      color: #a86e46;
-    }
-    .section ul {
-      padding: 1rem 2rem;
+    ul {
       list-style: none;
+      padding-left: 0;
     }
-    .section ul li {
-      margin-bottom: 0.8rem;
-      line-height: 1.5;
+    li {
+      margin-bottom: 1rem;
     }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      background-color: #fff6ee;
-      color: #7a6a58;
+    h2 {
+      color: #a86e46;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Shaliniee Beauty</h1>
-    <a href="https://www.instagram.com/shaliniee_beauty/" target="_blank">✨ Suivez-moi sur Instagram ✨</a> • Montigny-lès-Cormeilles</p>
+    <p>Centre de bien-être à Montigny-lès-Cormeilles</p>
   </header>
 
-  <div class="content">
-    <div class="section">
-      <img src="5f437875-6c57-4885-91a9-a1e6c5b92bef.jpg" alt="HeadSpa Zen" />
-      <h2>Prestations HeadSpa</h2>
-      <ul>
-        <li><strong>Bien-être (45min)</strong><br>Massage du cuir chevelu, Gommage capillaire, Shampooing + Masque, Massage décolleté, bras et mains, Séchage cheveux* + Collation</li>
-        <li><strong>Premium (60min)</strong><br>Massage du cuir chevelu, Gommage capillaire, Rituel TOKIO INKARAMI sous vapeur, Massage décolleté, bras et mains, Séchage cheveux* + Collation</li>
-        <li><strong>Luxe (90min)</strong><br>Massage du cuir chevelu, Gommage capillaire, Rituel TOKIO INKARAMI sous vapeur, Soin Visage Japonais, Massage décolleté, bras et mains, Séchage cheveux + coiffure, Collation</li>
-        <li><em>*Supplément coiffure : brushing, wavy, chignon, ... - Sur devis</em></li>
-      </ul>
-    </div>
+  <nav>
+    <button onclick="showSection('headspa')">HeadSpa</button>
+    <button onclick="showSection('kobido')">Massage Kobido</button>
+    <button onclick="showSection('makeup')">Make Up</button>
+    <button onclick="showSection('cils')">Extension de cils</button>
+  </nav>
 
-    <div class="section">
-      <img src="5d053542-a8e3-4823-b4f0-85368f007531.jpg" alt="Massage Kobido Zen" />
-      <h2>Prestations Kobido</h2>
-      <ul>
-        <li><strong>Bien-être (30min)</strong><br>Massage relaxant aux huiles naturelles, Collation</li>
-        <li><strong>Premium (60min)</strong><br>Massage relaxant aux huiles naturelles, Soin visage Japonais, Collation</li>
-      </ul>
+  <section class="active" id="home">
+    <div class="video-wrapper">
+      <video autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+        Votre navigateur ne prend pas en charge la vidéo HTML5.
+      </video>
     </div>
+    <p style="text-align:center; padding:2rem; max-width:800px; margin:auto;">
+      Bienvenue chez Shaliniee Beauty ✨ Un espace cocooning dédié à votre bien-être, au cœur d’un univers zen et raffiné inspiré des rituels japonais. Offrez-vous un moment d’exception pour sublimer votre beauté intérieure et extérieure 🌸
+    </p>
+  </section>
 
-    <div class="section">
-      <img src="ab697d12-30a9-42ea-b0cf-8f49a5f95bec.jpg"/>
-      <h2>Make Up</h2>
-    </div>
-    
-    <div class="section">
-      <img src="00c24e2c-4f16-497f-a0a4-0a38a1331c40.jpg"/>
-      <h2>Coiffure</h2>
-    </div>
+  <section id="headspa">
+    <h2>HeadSpa - Rituels Japonais du cuir chevelu</h2>
+    <img src="headspa.jpg" alt="HeadSpa" class="section-image">
+    <p>Découvrez les bienfaits apaisants du HeadSpa : purification du cuir chevelu, détente musculaire profonde, beauté des cheveux et bien-être global.</p>
+    <ul>
+      <li><strong>Bien-être (45min)</strong><br>- Massage du cuir chevelu<br>- Gommage capillaire<br>- Shampooing + Masque<br>- Massage décolleté, bras et mains<br>- Séchage cheveux* + Collation</li>
+      <li><strong>Premium (60min)</strong><br>- Massage du cuir chevelu<br>- Gommage capillaire<br>- Rituel TOKIO sous vapeur<br>- Massage décolleté, bras et mains<br>- Séchage cheveux* + Collation</li>
+      <li><strong>Luxe (90min)</strong><br>- Massage du cuir chevelu<br>- Gommage capillaire<br>- Rituel TOKIO sous vapeur<br>- Soin Visage Japonais<br>- Massage décolleté, bras et mains<br>- Séchage cheveux + coiffure<br>- Collation</li>
+    </ul>
+    <p><em>*Supplément coiffure : brushing, wavy, chignon, ... - Sur devis</em></p>
+  </section>
 
-    <div class="section">
-      <img src="070abce8-96dd-4343-81b8-636f413c5b1b.jpg"/>
-      <h2>Extension de cils</h2>
-    </div>
-  </div>
-  
-  <section>
-    <h2>✨ Réservez votre rituel d’exception</h2>
-  
-  <footer>
-    © 2025 Shaliniee Beauty. Bien-être et luxe au féminin.
-  </footer>
+  <section id="kobido">
+    <h2>Massage Kobido - Lifting naturel japonais</h2>
+    <img src="kobido.jpg" alt="Kobido" class="section-image">
+    <p>Le Kobido est un art ancestral japonais du massage du visage. Il stimule la circulation, tonifie les muscles du visage et favorise un éclat naturel tout en procurant une relaxation profonde.</p>
+    <ul>
+      <li><strong>Bien-être (30min)</strong><br>- Massage relaxant aux huiles naturelles<br>- Collation</li>
+      <li><strong>Premium (60min)</strong><br>- Massage relaxant aux huiles naturelles<br>- Soin visage Japonais<br>- Collation</li>
+    </ul>
+  </section>
+
+  <section id="makeup">
+    <h2>Make Up - Beauté sur-mesure</h2>
+    <img src="makeup.jpg" alt="Make Up" class="section-image">
+    <p>Un maquillage adapté à chaque occasion, avec des produits professionnels pour sublimer votre visage et révéler votre éclat naturel.</p>
+  </section>
+
+  <section id="cils">
+    <h2>Extension de cils - Regard intense</h2>
+    <img src="cils.jpg" alt="Extension de cils" class="section-image">
+    <p>Des cils allongés, fournis et parfaitement courbés pour un regard irrésistible, en harmonie avec votre visage. Pose classique ou volume russe.</p>
+  </section>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
 </body>
 </html>
